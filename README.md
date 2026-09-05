@@ -37,3 +37,14 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - **Ubicación:** `tarea/tarea1.js`[cite: 1]
 - **Archivos:** `tarea/texto.txt` -> `tarea/texto_mayusculas.txt`[cite: 1]
 - **Resultado:** Ejecutado correctamente con `node tarea/tarea1.js`. Se transformó el texto a mayúsculas en streaming mediante la clase `Transform`[cite: 1].
+
+### 📝 Tarea 2 — Servidor HTTP y Reporte Excel
+- **Ubicación:** `tarea/server.js`
+- **Puerto:** `3000`
+- **Rutas:** `/` (instrucciones) y `/reporte` (descarga del `.xlsx`)
+- **Resultado:** Servidor configurado con `exceljs` para enviar en streaming 20 filas a la hoja "Ventas" con cabeceras HTTP `Content-Type` y `Content-Disposition` adecuadas y manejo de errores.
+
+modo ejecucio::
+tarea/node server.js
+curl -O -J http://localhost:3000/reporte
+---
