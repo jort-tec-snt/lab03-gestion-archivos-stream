@@ -5,7 +5,7 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 ## 📋 Estado del Laboratorio
 
 - [x] **Actividad 1:** Lectura de un archivo usando Streams (`index.js` / `datos.txt`)[cite: 1]
-- [ ] **Actividad 2:** Escritura en un archivo usando Streams (`salida.txt`)[cite: 1]
+- [x] **Actividad 2:** Escritura en un archivo usando Streams (`salida.txt`)[cite: 1]
 - [ ] **Actividad 3:** Compresión con Pipes (`entrada.txt.gz`)[cite: 1]
 - [ ] **Actividad 4:** Manejo de Errores y Backpressure[cite: 1]
 - [ ] **Tarea 1:** Transform Stream a Mayúsculas (`texto_mayusculas.txt`)[cite: 1]
@@ -17,3 +17,8 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - **Archivo principal:** `index.js`[cite: 1]
 - **Archivo de datos:** `datos.txt`[cite: 1]
 - **Resultado:** Ejecutado correctamente con `node index.js`. Se leyeron los fragmentos de datos mediante el evento `'data'` sin cargar todo el archivo en memoria[cite: 1].
+
+### 📝 Actividad 2 — Escritura en un Archivo
+- **Archivo principal:** `index.js`[cite: 1]
+- **Archivo generado:** `salida.txt`[cite: 1]
+- **Resultado:** Ejecutado correctamente con `node index.js`. Se creó el archivo de salida enviando los bloques con `.write()` y `.end()`, finalizando la escritura a través del evento `'finish'`[cite: 1].
