@@ -29,3 +29,6 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - **Archivo generado:** `entrada.txt.gz`[cite: 1]
 - **Resultado:** Ejecutado correctamente con `node index.js`. Se conectaron los flujos de lectura y escritura mediante el método `.pipe()` haciendo uso del módulo nativo `zlib` para comprimir el archivo en tiempo real[cite: 1].
 
+### 📝 Actividad 4 — Manejo de Errores y Backpressure
+- **Archivo principal:** `index.js`[cite: 1]
+- **Resultado:** Ejecutado correctamente con `node index.js`. Se controló el flujo de datos mediante `.pause()` al saturarse el búfer y `.resume()` tras recibir el evento `'drain'`[cite: 1].
