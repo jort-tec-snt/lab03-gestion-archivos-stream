@@ -1,8 +1,11 @@
 const fs = require('fs');
-const zlib = require('zlib');
+const readable = fs.createReadStream('datos.txt');
+const writable = fs.createWriteStream('salida_backpressure.txt');
 
-const readStream = fs.createReadStream('entrada.txt');
-const writeStream = fs.createWriteStream('entrada.txt.gz');
-const gzip = zlib.createGzip();
+readable.on('data', chunk => {
+  if (!writable.write(chunk)) {
+    readable.pause();
+  }
+});
 
-readStream.pipe(gzip).pipe(writeStream);
+writable.on('drain', () => readable.resume());

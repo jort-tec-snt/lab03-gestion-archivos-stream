@@ -28,3 +28,4 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - **Archivo de entrada:** `entrada.txt`[cite: 1]
 - **Archivo generado:** `entrada.txt.gz`[cite: 1]
 - **Resultado:** Ejecutado correctamente con `node index.js`. Se conectaron los flujos de lectura y escritura mediante el método `.pipe()` haciendo uso del módulo nativo `zlib` para comprimir el archivo en tiempo real[cite: 1].
+
