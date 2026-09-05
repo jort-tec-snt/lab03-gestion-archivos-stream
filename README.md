@@ -9,7 +9,7 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - [x] **Actividad 3:** Compresión con Pipes (`entrada.txt.gz`)[cite: 1]
 - [x] **Actividad 4:** Manejo de Errores y Backpressure[cite: 1]
 - [x] **Tarea 1:** Transform Stream a Mayúsculas (`texto_mayusculas.txt`)[cite: 1]
-- [ ] **Tarea 2:** Servidor HTTP con Reporte Excel (`exceljs`)[cite: 1]
+- [x] **Tarea 2:** Servidor HTTP con Reporte Excel (`exceljs`)[cite: 1]
 
 ---
 
