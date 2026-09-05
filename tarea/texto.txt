@@ -1,0 +1,2 @@
+hola, este texto sera transformado a mayusculas.
+los streams transform modifican el flujo de datos en tiempo real.

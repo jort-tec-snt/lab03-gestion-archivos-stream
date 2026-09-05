@@ -7,8 +7,8 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 - [x] **Actividad 1:** Lectura de un archivo usando Streams (`index.js` / `datos.txt`)[cite: 1]
 - [x] **Actividad 2:** Escritura en un archivo usando Streams (`salida.txt`)[cite: 1]
 - [x] **Actividad 3:** Compresión con Pipes (`entrada.txt.gz`)[cite: 1]
-- [ ] **Actividad 4:** Manejo de Errores y Backpressure[cite: 1]
-- [ ] **Tarea 1:** Transform Stream a Mayúsculas (`texto_mayusculas.txt`)[cite: 1]
+- [x] **Actividad 4:** Manejo de Errores y Backpressure[cite: 1]
+- [x] **Tarea 1:** Transform Stream a Mayúsculas (`texto_mayusculas.txt`)[cite: 1]
 - [ ] **Tarea 2:** Servidor HTTP con Reporte Excel (`exceljs`)[cite: 1]
 
 ---
@@ -32,3 +32,8 @@ Repositorio de resolución del laboratorio de gestión de archivos y flujos de d
 ### 📝 Actividad 4 — Manejo de Errores y Backpressure
 - **Archivo principal:** `index.js`[cite: 1]
 - **Resultado:** Ejecutado correctamente con `node index.js`. Se controló el flujo de datos mediante `.pause()` al saturarse el búfer y `.resume()` tras recibir el evento `'drain'`[cite: 1].
+
+### 📝 Tarea 1 — Transform Stream (Mayúsculas)
+- **Ubicación:** `tarea/tarea1.js`[cite: 1]
+- **Archivos:** `tarea/texto.txt` -> `tarea/texto_mayusculas.txt`[cite: 1]
+- **Resultado:** Ejecutado correctamente con `node tarea/tarea1.js`. Se transformó el texto a mayúsculas en streaming mediante la clase `Transform`[cite: 1].
