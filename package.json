@@ -1,0 +1,24 @@
+{
+  "name": "lab03-gestion-archivos-stream",
+  "version": "1.0.0",
+  "description": "Gestion de Archivos y Stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jort-tec-snt/lab03-gestion-archivos-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jort-tec-snt/lab03-gestion-archivos-stream/issues"
+  },
+  "homepage": "https://github.com/jort-tec-snt/lab03-gestion-archivos-stream#readme",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

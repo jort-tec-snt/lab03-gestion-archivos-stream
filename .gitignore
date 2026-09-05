@@ -1,0 +1,5 @@
+node_modules/
+*.gz
+salida.txt
+texto_mayusculas.txt
+reporte.xlsx
